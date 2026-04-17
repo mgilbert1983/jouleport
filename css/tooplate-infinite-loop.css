@@ -1,0 +1,22 @@
+.tm-logo {
+    height: 50px;
+}
+
+.tm-hero-logo {
+    max-width: 400px;
+}
+
+/* Original Tooplate CSS styles go here */
+
+/* Example styles to include */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+h1 {
+    color: #333;
+}
+a {
+    color: #1a73e8;
+}
+/* Add more styles as needed */
