@@ -1,16 +1,29 @@
-.tm-navbar.scroll .navbar-brand {
-    /* existing styles */
+.infinite-loop {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
-.tm-logo {
-  height: 50px;
-  width: auto;
-  display: block;
+.infinite-loop img {
+    animation: move 15s linear infinite;
+    width: 100%;
+    height: auto;
 }
 
-.tm-hero-logo {
-  max-width: 400px;
-  width: 100%;
-  height: auto;
-  margin-bottom: 30px;
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* New logo styling */
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 150px; /* Adjust width as needed */
+    height: auto;
 }
