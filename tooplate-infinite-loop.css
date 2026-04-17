@@ -1,0 +1,31 @@
+.tm-logo {
+    width: 100px;
+    height: auto;
+}
+
+.tm-hero-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Original styles */
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 14px;
+}
