@@ -76,6 +76,10 @@ blockquote {
 
 /* Navbar */
 
+.nav-logo {
+  height: 40px; /* adjust as needed */
+  width: auto;
+
 .tm-navbar {
   position: fixed;
   width: 100%;
